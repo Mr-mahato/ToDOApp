@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top ,  rgb(220, 220, 68) , rgb(144, 82, 82));
+}
+.container{
+    width: 70vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    background: #5a5656;
+    color: #ffff;
+}
+
+.container h1{
+    color: rgb(63, 195, 63);
+    margin-top: 10px;
+
+}
+.container input{
+    padding: 10px;
+    width: 15vw;
+    outline: none;
+    border: none;
+    box-shadow: 0.3px 0.3px 2px 0.02px black;
+}
+
+#send{
+    padding: 9px;   
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    color: green;
+}
+#insideTask{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    background: grey;
+    margin: 5px;
+}
+#insideTask button{
+    left: 50vw;
+    
+    /* color: red; */
+}
